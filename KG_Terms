@@ -1,0 +1,50 @@
+Knowledge Graph:-
+
+A knowledge graph acquires and integrates information into an ontology and applies a reasoner to derive new knowledge.
+                                             or
+ A knowledge graph is a programmatic way to model a knowledge domain with the help of subject-matter experts, data interlinking, and machine learning algorithms.											 
+-----------------------------------------------------------------------------------------------------------------------------------------
+Ontology:-
+
+A set of concepts and categories in a subject area or domain that shows their properties and the relations between them.
+-------------------------------------------------------------------------------------------------------------------------------------------
+Knowledge graph embedding:-
+
+Knowledge graph embedding models are neural architectures that encode concepts from a knowledge graph (i.e. entities E and relation types R) into low-dimensional, continuous vectors ∈Rk. Such textit{knowledge graph embeddings} have applications in knowledge graph completion, entity resolution, and link-based clustering, just to cite a few [NMTG16]. 
+
+Knowledge graph embeddings are learned by training a neural architecture over a graph. Although such architectures vary, the training phase always consists in minimizing a loss function L that includes a scoring function fm(t), i.e. a model-specific function that assigns a score to a triple t=(sub,pred,obj) .
+
+The goal of the optimization procedure is learning optimal embeddings, such that the scoring function is able to assign high scores to positive statements and low scores to statements unlikely to be true.
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Tensor Decomposition (TD) algorithm on graph data:-
+
+A tensor is a multidimensional array. More formally, an N-way or Nth-order tensor is an element of the tensor product of N vector spaces,
+each of which has its own coordinate system. A third-order tensor has three indices, as shown in Figure 1. A first-order tensor is a vector, a second-order tensor is a matrix, and tensors of order three or higher are called higher-order tensors.
+
+The goal of tensor decomposition is to obtain a compact representation of a given tensor. One of the first types of tensor factorization is the canonical polyadic decomposition (CPD). 
+
+All graphs, except the aggregated network, were used during the analysis. As you already know a graph can be represented with an adjacency matrix. Using its matrix representation we can then built a tensor (3D matrix) where we stacked all the matrix along the 3rd mode as described in Figure 3.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Knowledge base completion:-- 
+
+Knowledge base
+completion (KBC) is the task of predicting
+whether a given edge (s, r, t) belongs in the graph
+or not. This can be formulated as a path query
+q = s/r with candidate answer t.
+----------------------------------------------------------------------------------------------------------------
+Knowledge base completion with vector space models:- 
+
+
+Many models have been proposed for
+knowledge base completion, including those reviewed in Section 3.4 (Nickel et al., 2011; Bordes et al., 2013; Yang et al., 2015; Socher et al.,
+2013). Dong et al. (2014) demonstrated that KBC
+models can improve the quality of relation extraction by serving as graph-based priors. Riedel et
+al. (2013) showed that such models can be also be
+directly used for open-domain relation extraction.
+Our compositional training technique is an orthogonal improvement that could help any composable
+model.
+
+-------------------------------------------------------------------------------------------------------------
+
+
